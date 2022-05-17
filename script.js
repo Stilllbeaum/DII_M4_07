@@ -13,4 +13,4 @@ while (n > 0) {
     fac_while *= n;
     n--;
 }
-console.log(sum2)
+console.log(fac_while)
