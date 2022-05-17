@@ -1,4 +1,4 @@
-let score = 79.4;
+let score = 0;
 let grade;
 if (score >= 80) {
  grade = 'A';
