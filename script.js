@@ -1,4 +1,4 @@
-//for loop
+/*//for loop
 n = 3;
 fac_for = 1;
 for (let i = 1; i <= n; i++) {
@@ -128,4 +128,21 @@ salarySum=findSum(employee, 'เงินเดือน');
 ageAvg=findAvg(employee, 'อายุ')
 
 console.log(salarySum);
-console.log(ageAvg);
+console.log(ageAvg);*/
+
+/*const newText = 'not ok';
+let allFlexItem = document.getElementsByClassName('flex-item')
+for (i = 0 ; i<allFlexItem.length ; i++) {
+ allFlexItem[i].innerHTML = newText;
+}*/
+function alert1() {
+    alert('let me see ...');
+}
+let ok = document.getElementById('ok');
+ok.addEventListener('click', alert1);
+
+function alert2() {
+    alert('not ok ...');
+}
+let cancel = document.getElementById('cancel');
+cancel.addEventListener('click', alert2);
