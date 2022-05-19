@@ -135,14 +135,29 @@ let allFlexItem = document.getElementsByClassName('flex-item')
 for (i = 0 ; i<allFlexItem.length ; i++) {
  allFlexItem[i].innerHTML = newText;
 }*/
-function alert1() {
+/*function alert1() {
     alert('let me see ...');
 }
-let ok = document.getElementById('ok');
+ok = document.getElementById('ok');
 ok.addEventListener('click', alert1);
 
 function alert2() {
     alert('not ok ...');
 }
+cancel = document.getElementById('cancel');
+cancel.addEventListener('click', alert2);*/
+
+let ok = document.getElementById('ok');
+
 let cancel = document.getElementById('cancel');
-cancel.addEventListener('click', alert2);
+
+let showDate = document.getElementById('showDate');
+
+ok.addEventListener('click', () => alert('let me see ...'));
+cancel.addEventListener('click', () => alert('not ok ...'));
+showDate.addEventListener('click', function () {
+    document.getElementById('emptySpace').innerHTML = <b>"Date()+"</b>;
+});
+showDate.addEventListener('dbclick', function () {
+    document.getElementById('emptySpace').innerHTML = ''();
+});
